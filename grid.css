@@ -22,6 +22,7 @@
 }
 .layflex{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 50px;
@@ -151,7 +152,7 @@
 /* Layout 02 End  */
 
 /* Layout 03 Start  */
-.layout03{
+.layout03, .layout04, .layout05{
     display: grid;
     grid-template-columns: auto auto auto 60px 30px 30px;
     gap: 5px;
@@ -195,3 +196,67 @@
 /* Layout 03 End  */
 
 /* Layout 04 Start  */
+.layout04{
+    grid-template-columns: auto auto 30px 30px 180px;
+    grid-template-rows: 60px auto auto ;
+}
+.lay04-1{
+    background-color: #F5B8A5;
+    grid-row: span 3;
+}
+.lay04-2{
+    grid-column: span 3;
+    background-color: #cecbcb;
+}
+.lay04-3{
+    background-color: rgb(245, 98, 44);
+}
+.lay04-4{
+    grid-column: span 2;
+    background-color: rgb(217, 128, 40);
+}
+.lay04-5{
+    grid-column: span 2;
+    background-color: #D5AFAE;
+}
+.lay04-6{
+    background-color: #B8C8DF;
+}
+.lay04-7{
+    background-color: green;
+    grid-column: span 3;
+}
+/* Layout 04 End  */
+
+/* Layout 05 Start  */
+.layout05{
+    grid-template-columns: auto auto auto 60px;
+}
+.lay05-1{
+    background-color: rgb(255, 115, 0);
+}
+.lay05-2{
+    grid-row: span 2;
+    background-color: lightcoral;
+}
+.lay05-3{
+    grid-column: span 2;
+    background-color: powderblue;
+}
+.lay05-4{
+    background-color: #B8C8DF;
+}
+.lay05-5{
+    grid-row: span 2;
+    background-color: green;
+}
+.lay05-6{
+    flex-direction: column;
+    background-color: grey;
+    grid-row: span 2;
+}
+.lay05-7{
+    grid-column: span 2;
+    background-color: orange;
+}
+/* Layout 05 End  */
