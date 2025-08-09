@@ -12,7 +12,8 @@
     margin: auto;
 }
 .inner-container{
-    margin-top: 50px;
+    margin-top: 10px;
+    height: 260px;
 }
 .crflex{
     display: flex;
@@ -25,19 +26,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 50px;
-}
-/* Grid css start  */
-.layout01{
-    display: grid;
-    grid-template-columns: 70px auto auto auto auto;
-    gap: 5px;
-    width: 460px;
-    height: 300px;
-    padding: 20px;
-    border-radius: 3px;
-    background-color: #fff;
-    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    gap: 40px;
 }
 .circle{
     height: 30px;
@@ -55,47 +44,46 @@
 .circle-3{
     background-color: lime;
 }
-.lay01-1{
-    display: flex;
-    flex-direction: column;
+.circle-4{
+    background-color: purple;
+}
+/* Grid css start  */
+.layout01, .layout02, .layout03, .layout04, .layout05, .layout06, .layout07, .layout08, .layout09{
+    display: grid;
+    grid-template-columns: 60px auto auto auto auto;
     gap: 5px;
-    grid-row:1 / span 2;
-    border: 1px solid #ddd;
+    width: 460px;
+    height: 300px;
     padding: 20px;
-    background-color: rgb(201, 196, 196);
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.lay01-1{
+    background-color: grey;
+    flex-direction: column;
+    grid-row: span 2;
 }
 .lay01-2{
-    border: 1px solid #ddd;
-    padding: 20px;
     background-color: #B8C8DF;
     grid-column: 2 / span 3;
 }
 .lay01-3{
     grid-row: span 2 ;
-    border: 1px solid #ddd;
-    padding: 20px;
     background-color: #F4B136;
 }
 .lay01-4{
-    border: 1px solid #ddd;
-    padding: 20px;
     background-color: #D5AFAE;
     grid-column: span 2;
 }
 .lay01-5{
-    border: 1px solid #ddd;
-    padding: 20px;
     background-color:#C8E0DE;
 }
 .lay01-6{
-    border: 1px solid #ddd;
-    padding: 20px;
     background-color: #F5B8A5;
     grid-column: span 3;
 }
 .lay01-7{
-    border: 1px solid #ddd;
-    padding: 20px;
     background-color:#BBCA6F;
     grid-column: span 2;
 }
@@ -103,65 +91,42 @@
 
 /* Layout 02 Start  */
 .layout02{
-    display: grid;
     grid-template-columns: auto auto auto 50px auto auto;
-    gap: 5px;
-    width: 460px;
-    height: 300px;
-    background-color: white;
-    padding: 20px;
-    border-radius: 3px;
-    box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.19) ;
 }
 .lay02-1{
-    padding: 20px;
     background-color: #829233;
     grid-column: span 3;
 }
 .lay02-2{
-    padding: 20px;
     background-color: #F4B136;
     grid-column: span 3;
     grid-row: span 2;
 }
 .lay02-3{
-    padding: 20px;
     background-color: #F4B136;
     grid-column: span 2;
     grid-row: span 3;
 }
 .lay02-4{
-    padding: 20px;
     background-color: #D5AFAE;
 }
 .lay02-5{
-    padding: 20px;
     background-color:#C8E0DE;
     grid-column: span 2;
 }
 .lay02-6{
-    padding: 20px;
     background-color: #F5B8A5;
     grid-column: span 2;
 }
 .lay02-7{
-    padding: 20px;
     background-color:#84e987;
     grid-column: span 4;
 }
 /* Layout 02 End  */
 
 /* Layout 03 Start  */
-.layout03, .layout04, .layout05{
-    display: grid;
+.layout03{
     grid-template-columns: auto auto auto 60px 30px 30px;
-    gap: 5px;
-    padding: 20px;
-    border-radius: 3px;
-    box-shadow: 0px 08px 12px 0px rgba(0, 0, 0, 0.19);
-    width: 460px;
-    height: 300px;
-    background-color: #fff;
 }
 .lay03-1{
     grid-column: span 4;
@@ -179,7 +144,6 @@
 .lay03-4{
     grid-column:  span 3;
     background-color: grey;
-    padding: 5px;
 }
 .lay03-5{
     grid-column: span 2;
@@ -260,3 +224,73 @@
     background-color: orange;
 }
 /* Layout 05 End  */
+
+/* Layout 06 Start  */
+.layout06{
+    grid-template-columns: auto auto auto 60px auto;
+}
+.lay06-1{
+    background-color: #B8C8DF;
+    grid-row: span 2;
+}
+.lay06-2{
+    background-color: orange;
+    grid-column: span 2;
+}
+.lay06-3{
+    background-color: grey;
+    flex-direction: column;
+    grid-row: span 2;
+}
+.lay06-4{
+    background-color: #829233;
+}
+.lay06-5{
+    background-color: plum;
+    grid-column: span 2;
+}
+.lay06-6{
+    background-color: lightblue;
+    grid-row: span 2;
+}
+.lay06-7{
+    background-color: teal;
+    grid-column: span 4;
+}
+/* Layout 06 End  */
+
+/* Layout 07 Start  */
+.layout07{
+    grid-template-columns: 40px 60px 100px auto auto auto;
+    grid-template-rows: auto auto 20px 60px;
+}
+.lay07-1{
+    background-color: lightpink;
+}
+.lay07-2{
+    background-color: orange;
+    grid-column: span 2;
+}
+.lay07-3{
+    background-color: green;
+    grid-row: span 2;
+    grid-column: span 3;
+}
+.lay07-4{
+    background-color: rebeccapurple;
+    grid-row: span 2;
+    grid-column: span 2;
+}
+.lay07-5{
+    background-color: khaki;
+    grid-row: span 2;
+}
+.lay07-6{
+    background-color: #B8C8DF;
+    grid-column: span 3;
+    grid-row: span 2;
+}
+.lay07-7{
+    background-color: grey ;
+    grid-column: span 3;
+}
