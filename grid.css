@@ -294,3 +294,80 @@
     background-color: grey ;
     grid-column: span 3;
 }
+/* Layout 07 End  */
+
+/* Layout 08 Start  */
+.layout08{
+    grid-template-columns: 50px 40px 70px auto auto auto;
+}
+.lay08-1{
+    background-color: #B8C8DF;
+    grid-row: span 2;   
+}
+.lay08-2{
+    background-color: khaki;
+    grid-column: span 5;
+}
+.lay08-3{
+    background-color: orange;
+    grid-column: span 2;
+}
+.lay08-4{
+    background-color: rebeccapurple;
+    grid-column: span 3;
+    grid-row: span 2;
+}
+.lay08-5{
+    background-color: grey;
+    grid-column: span 3;
+}
+.lay08-6{
+    background-color: green;
+    grid-column: span 2;
+}
+.lay08-7{
+    background-color: tan;
+    grid-column: span 4;
+}
+/* Layout 08 End  */
+
+/* Layout 09 Start  */
+.layout09{
+    grid-template-columns: auto auto 60px 60px auto auto;
+    grid-template-rows: 40px auto auto auto 40px;
+}
+.lay09-1{
+    background-color: orange;
+    grid-column: span 3;
+}
+.lay09-2{
+    background-color: #B8C8DF;
+    grid-column: span 3;
+    grid-row: span 2;
+}
+.lay09-3{
+    background-color: violet;
+    grid-column: span 2;
+    grid-row: span 3;
+}
+.lay09-4{
+    background-color: grey;
+    grid-row: span 3;
+    flex-direction: column;
+}
+.lay09-5{
+    grid-row: span 2;
+    background-color: rebeccapurple;
+}
+.lay09-6{
+    background-color: green;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.lay09-7{
+    background-color: cadetblue;
+    grid-column: span 6;
+}
+/* Layout 09 End  */
+
+/* And all CSS code end . Thank you so much  */
